@@ -19,7 +19,7 @@ public class Client {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         //Salvo un buffer per le risposte
-        ByteBuffer readBuffer = ByteBuffer.allocate(256);
+        ByteBuffer readBuffer = ByteBuffer.allocate(2048);
         while(!input.equals("exit")){
             //Qui processo i comandi del client
             //Converto l'input in array di byte

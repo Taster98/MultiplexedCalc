@@ -56,7 +56,7 @@ public class Server {
         //Se sono qui invece il client mi ha spedito qualcosa
         SocketChannel client = (SocketChannel) key.channel();
         //Mi creo un buffer
-        ByteBuffer buffer = ByteBuffer.allocate(256);
+        ByteBuffer buffer = ByteBuffer.allocate(2048);
         //Leggo dal client
         client.read(buffer);
         //Mi prendo il risultato dal buffer

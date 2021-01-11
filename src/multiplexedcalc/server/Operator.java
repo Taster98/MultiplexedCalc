@@ -37,6 +37,10 @@ public class Operator implements Runnable{
     public void run() {
         float res = 0;
         String[] splitted = result.split(" ",3);
+        if(splitted[0].equals("help")){
+            error(Constants.HELP);
+            return;
+        }
         if(splitted.length == 3){
             //Controllo che siano inseriti solo numeri
             float a;

@@ -8,4 +8,13 @@ public class Constants {
     public static final String SUB = "sub";
     public static final String MUL = "mul";
     public static final String DIV = "div";
+
+    //help message
+    public static final String HELP = "Welcome to MultiplexedCalc.\n" +
+            "Command list:\n" +
+            "'help' --> show this help message\n" +
+            "'add [op1] [op2]' --> show result of [op1] + [op2]\n" +
+            "'sub [op1] [op2]' --> show result of [op1] - [op2]\n" +
+            "'mul [op1] [op2]' --> show result of [op1] * [op2]\n" +
+            "'div [op1] [op2]' --> show result of [op1] / [op2]";
 }
